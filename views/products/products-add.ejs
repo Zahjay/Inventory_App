@@ -1,0 +1,20 @@
+
+<% include ../partials/boilerplate %>
+
+<h1 class="h1_for_products-add"> To Add Products Input Them Below <h1/>
+<form class = "add-info" method = 'POST' action = '/products'>
+  <div class= "parts-of-form">
+    
+    <input name = 'name' type='text' placeholder= 'Product Name'/>
+    <input name = 'category_id' type='text' placeholder= 'Category'/>
+    <input name='price' type='text' placeholder='Price'/>
+    <input name='quantity' type='text' placeholder='Quantity'/>
+    <input name= 'size_id' type='text' placeholder='Product Size'/>
+    <input name= 'description' type='text' placeholder='Description'/>
+    <input class="add-page-button" type="submit" value="Add"/>
+ 
+  <a class = "from-add-pro-index"href= '/products'> Redirect To Product Index</a>
+  </div>
+  </form>
+</div>
+<% include ../partials/end %>

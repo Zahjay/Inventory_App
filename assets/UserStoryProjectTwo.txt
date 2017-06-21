@@ -1,0 +1,38 @@
+﻿User Story Project Two
+
+
+1. As a retail business, we want to stay organized.
+2. When users click on link that have various options
+3. User is prompted to the following fields
+   1.  Add A Product
+   2. Edit A Product
+   3. Delete A Product
+   4. Read Individual Products
+IV.  User selects Add
+A User is prompted to fill in the following fields:
+* Product Name
+* Category 
+* Price
+* Quantity
+* Product Size
+* Description
+V. User is redirected when fields are submitted
+VI. User selects Edit 
+1. User is prompted to fill in the following fields:
+* Product Name
+* Category 
+* Price
+* Quantity
+* Product Size
+* Description
+VII . User Selects Delete
+1. Info vanished 
+VIII. User Selects Read 
+1. User is able to view specific items
+IX. From Product List User Possess Freedom to Navigate throughout site .
+X. From Read Page Navigation is given, though not as much.
+
+
+XI. The following rules will apply to each field
+1. They must allow info to be received or submitted
+XII. App is finished and functional

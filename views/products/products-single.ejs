@@ -1,0 +1,18 @@
+
+<% include ../partials/boilerplate %>
+  <a href='/products'class='single-atag' > Return to products index</a>
+ <% include ./navbar %>
+<section class= 'Head-single'> Individual Items</section>
+  <div class='single-product'>
+      <h3 class ='single-name'> <%= product.name %></h3>
+      <div class='single-elements'>
+      <span class='single-category'> <%= product.category_id%></span>
+      <span class='single-price'> <%= product.price%></span>
+      <span class='single-quantity'><%= product.quantity%> </span>
+      <span class='single-size_id'><%= product.size_id%> </span>
+       <span class='single-description'><%= product.description%></span>
+    </div>
+  </div>
+ 
+
+<% include ../partials/end %>

@@ -1,0 +1,673 @@
+
+/*
+#################################### 
+###### MEDIA QUERY -- DESKTOP ######
+####################################
+*/
+
+body {
+
+  background: black;
+  color: white;
+
+}
+
+/*home page*/
+
+.about-page{
+
+height:100px;
+width:100px;
+background-color:red;
+
+}
+
+.new-edition{
+
+color: white;
+
+}
+
+.logo{
+  height: 390px;
+  width: 575px;
+  margin:0 auto;
+  text-align: center;
+ color:black;
+  font-size: 50px;
+  font-weight: bold;
+  border:solid pink 6px;
+  padding: 30px 10px 0px 10px;
+  border-style: solid;
+ background:no-repeat url('https://media.giphy.com/media/s0cgIlfRm5dF6/giphy.gif');
+}
+
+#index-title{
+ 
+ font-size:60px;
+ background-color: palevioletred;
+ text-align: center;
+ margin: 40px 0px 70px 0px;
+ color:white;
+ padding-bottom: 5px;
+ height: 50px;
+}
+
+.a-index{
+text-align:center;
+font-size: 40px;
+margin-top: 30px;
+color:white;
+
+}
+
+.go-to-id{
+border-radius:50px;
+background-color:grey; 
+padding:10px;
+text-decoration:none;
+font-size:25px;
+color:white;
+margin: 10px;
+
+}
+
+/*Index Page For Single Item*/
+
+.Head-single{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.single-product{
+  border-radius: 10px;
+  padding: 50px 50px 25px 50px;
+  margin: 35px auto;
+  text-align: center;
+  line-height: 40px;
+  max-width:500px;
+  border-bottom:solid 20px white;
+  border-top:solid 20px white;
+  font-size:40px;
+  background:repeat url('https://media.giphy.com/media/xTiTnHANucKzcqK0mY/giphy.gif');
+}
+
+.single-atag{
+  font-size: 45px;
+  color:red;
+}
+
+/*Inserting Values*/
+
+.single-name::before{
+
+content: 'Name: ';
+}
+
+.single-category::before{
+  content: 'Category: ';
+}
+
+.single-price::before{
+  content:'Price:$';
+}
+
+.single-quantity::before{
+  content: 'Quantity: ';
+}
+
+.single-size_id::before{
+  content: 'Size: ';
+}
+
+
+.single-description::before{
+  content: 'Description:';
+}
+
+/*
+Product index page*/
+
+.direct-home{
+font-size: 45px;
+color:orangered;
+}
+
+
+.a-product-index{
+font-size: 35px;
+text-decoration: none;
+color: grey;
+font-weight:bold;
+position: absolute;
+background-color: white;
+
+}
+
+.a-product-index::before{
+  content: ">>" ;
+
+}
+
+.a-product-index::after{
+  content: "<< " ;
+
+}
+
+#div-a-products{
+  height:20vh;
+  width: 30vh;
+  margin-left:40px ;
+  border-radius:70%;
+}
+
+
+#delte-button{
+border-radius:50px;
+background-color:grey; 
+padding:10px;
+text-decoration:none;
+font-size:25px;
+color: white;
+margin: 10px;
+text-decoration: underline solid;
+
+}
+
+.edit-product-index{
+border-radius:50px;
+background-color:grey; 
+padding:10px;
+text-decoration:none;
+font-size:25px;
+color:white;
+margin: 10px;
+}
+
+
+/*The class .product-type-index stands for each individual div which contain product info*/
+
+.product-type-index{
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted rgb(56,216,248);
+  border-radius: 10px;
+  padding: 50px 50px 25px 50px;
+  margin: 35px auto;
+  text-align: center;
+  line-height: 40px;
+  max-width:500px;
+  border-bottom:solid 20px white;
+  border-top:solid 20px white;
+  font-size:30px;
+  background:repeat url('https://media.giphy.com/media/xTiTnHANucKzcqK0mY/giphy.gif');
+}
+
+/*Adding words to differnt categories*/
+
+/*.names::before{
+
+content: "Name:";
+
+}*/
+
+.price::before{
+content: "Price: $";
+}
+
+.category::before{
+  content: "Category:";
+}
+
+.quantity::before{
+ content: "Quantity:";
+}
+
+.size::before{
+
+content: " Size:";
+}
+
+.description::before{
+content: "Description:";
+}
+
+/*nav*/
+
+
+nav {
+  font-size: 30px;
+  padding: 30px;
+}
+
+.nav-div{
+  padding:20px;
+text-align: center;
+color: yellow;
+font-weight:bold;
+font-size:50px;
+/*This giff keeps stopping suddenly*/
+ background:repeat url('https://media.giphy.com/media/fi8TOC7q8m5LW/giphy.gif');
+
+}
+
+.nav-div:hover{
+  color: royalblue;
+}
+
+
+/* Add/Edit Forms*/
+
+#actions{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+
+/*This centers the other parts of the form.*/
+
+
+.h1_for_products-add{
+
+text-align: center;
+font-size:50px;
+margin-top:25px;
+margin-bottom:25px;
+
+}
+
+
+.h1_for_products-edit{
+
+text-align: center;
+font-size:50px;
+margin-top:25px;
+margin-bottom:25px;
+
+}
+
+
+.parts-of-form{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  width: 60%;
+  border: dotted darkgreen 4px;
+  padding-bottom: 5px;
+
+}
+
+.from-add-pro-index{
+  font-size:30px;
+  margin:40px;
+  padding-top:5px;
+  text-align: center;
+  color: white;
+}
+
+.add-page-button{
+background-color:darkgreen;
+color: yellow;
+font-weight:bold;
+}
+
+.edit-page-index{
+background-color:yellow;
+color: green;
+font-weight:bold;
+
+}
+
+input[type='text'] {
+  border: none;
+  margin: 40px;
+  font-size: 1.5em;
+  padding: 15px;
+  transition: 0.7s all;
+}
+
+input[name='name'] {
+  font-family: cursive;
+  font-size: 2em;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  color:limegreen;
+  background-color:yellow;
+}
+
+input[type='submit'] {
+  font-size: 1.5em;
+  margin: 0 auto;
+  background-color: rgb(255,255,255, 0.5);
+  transition: 0.2s all;
+  border: none;
+  border-radius: 60px;
+  padding: 30px 60px;
+  font-family: cursive;
+}
+
+/*
+#################################### 
+###### MEDIA QUERY -- Tablet ######
+####################################
+*/
+
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+
+body {
+
+  background: black;
+  color: white;
+
+}
+
+/*home page*/
+
+.logo{
+  height: 390px;
+  width: 575px;
+  margin:0 auto;
+  text-align: center;
+ color:black;
+  font-size: 50px;
+  font-weight: bold;
+  border:solid pink 6px;
+  padding: 30px 10px 0px 10px;
+  border-style: solid;
+ background:no-repeat url('https://media.giphy.com/media/s0cgIlfRm5dF6/giphy.gif');
+}
+
+#index-title{
+ 
+ font-size:60px;
+ background-color: palevioletred;
+ text-align: center;
+ margin: 40px 0px 70px 0px;
+ color:white;
+ padding-bottom: 5px;
+ height: 50px;
+}
+
+.a-index{
+text-align:center;
+font-size: 40px;
+margin-top: 30px;
+color: white;
+
+}
+
+.go-to-id{
+border-radius:50px;
+background-color:grey; 
+padding:10px;
+text-decoration:none;
+font-size:25px;
+color:white;
+margin: 10px;
+
+}
+
+/*Index Page For Single Item*/
+
+.Head-single{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.single-product{
+  border-radius: 10px;
+  padding: 50px 50px 25px 50px;
+  margin: 35px auto;
+  text-align: center;
+  line-height: 40px;
+  max-width:500px;
+  border-bottom:solid 20px white;
+  border-top:solid 20px white;
+  font-size:40px;
+  background:repeat url('https://media.giphy.com/media/xTiTnHANucKzcqK0mY/giphy.gif');
+}
+
+.single-atag{
+  font-size: 45px;
+}
+
+/*Inserting Values*/
+
+.single-name::before{
+
+content: 'Name: ';
+}
+
+.single-category::before{
+  content: 'Category: ';
+}
+
+.single-price::before{
+  content:'Price:$';
+}
+
+.single-quantity::before{
+  content: 'Quantity: ';
+}
+
+.single-size_id::before{
+  content: 'Size: ';
+}
+
+
+.single-description::before{
+  content: 'Description:';
+}
+
+
+/*
+Product index page*/
+
+.direct-home{
+font-size: 45px;
+color: royalblue;
+}
+
+
+.a-product-index{
+font-size: 35px;
+text-decoration: none;
+color: grey;
+font-weight:bold;
+position: absolute;
+background-color: white;
+
+}
+
+.a-product-index::before{
+  content: ">>" ;
+
+}
+
+.a-product-index::after{
+  content: "<< " ;
+
+}
+
+#div-a-products{
+  height:20vh;
+  width: 30vh;
+  margin-left:40px ;
+  border-radius:70%;
+}
+
+
+#delte-button{
+border-radius:50px;
+background-color:grey; 
+padding:10px;
+text-decoration:none;
+font-size:25px;
+color: white;
+margin: 10px;
+text-decoration: underline solid;
+
+}
+
+.edit-product-index{
+border-radius:50px;
+background-color:grey; 
+padding:10px;
+text-decoration:none;
+font-size:25px;
+color:white;
+margin: 10px;
+}
+
+
+/*The class .product-type-index stands for each individual div which contain product info*/
+
+.product-type-index{
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted rgb(56,216,248);
+  border-radius: 10px;
+  padding: 50px 50px 25px 50px;
+  margin: 35px auto;
+  text-align: center;
+  line-height: 40px;
+  max-width:500px;
+  border-bottom:solid 20px white;
+  border-top:solid 20px white;
+  font-size:30px;
+  background:repeat url('https://media.giphy.com/media/xTiTnHANucKzcqK0mY/giphy.gif');
+}
+
+/*Adding words to differnt categories*/
+
+/*.names::before{
+
+content: "Name:";
+
+}*/
+
+.price::before{
+content: "Price: $";
+}
+
+.category::before{
+  content: "Category:";
+}
+
+.quantity::before{
+ content: "Quantity:";
+}
+
+.size::before{
+
+content: " Size:";
+}
+
+.description::before{
+content: "Description:";
+}
+
+/*nav*/
+
+
+nav {
+  font-size: 30px;
+  padding: 30px;
+}
+
+.nav-div{
+  padding:20px;
+text-align: center;
+color: yellow;
+font-weight:bold;
+font-size:50px;
+ background:repeat url('https://media.giphy.com/media/fi8TOC7q8m5LW/giphy.gif');
+
+}
+
+.nav-div:hover{
+  color: royalblue;
+}
+
+
+/* Add/Edit Forms*/
+
+#actions{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+/*This centers the other parts of the form.*/
+
+.parts-of-form{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  width: 60%;
+  border: dotted darkgreen 4px;
+  padding-bottom: 5px;
+
+}
+
+.from-add-pro-index{
+  font-size:30px;
+  margin:40px;
+  padding-top:5px;
+  text-align: center;
+  color: green;
+}
+
+.add-page-button{
+background-color:darkgreen;
+color: yellow;
+font-weight:bold;
+}
+
+.edit-page-index{
+background-color:yellow;
+color: green;
+font-weight:bold;
+
+}
+
+input[type='text'] {
+  border: none;
+  margin: 40px;
+  font-size: 1.5em;
+  padding: 15px;
+  transition: 0.7s all;
+}
+
+input[name='name'] {
+  font-family: cursive;
+  font-size: 2em;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  color:limegreen;
+  background-color:yellow;
+}
+
+input[type='submit'] {
+  font-size: 1.5em;
+  margin: 0 auto;
+  background-color: rgb(255,255,255, 0.5);
+  transition: 0.2s all;
+  border: none;
+  border-radius: 60px;
+  padding: 30px 60px;
+  font-family: cursive;
+}
+
+}
+

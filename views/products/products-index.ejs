@@ -1,0 +1,32 @@
+<% include ../partials/boilerplate %>
+<% include ./navbar %>
+
+
+<div id="div-a-products" >
+ <a href='/products/add'class='a-product-index'> Add A Product!</a>
+</div>
+
+  <% productsData.forEach(function(product) { %>
+
+      <div class='product-type-index'>
+        
+        <h3 class='names'> <%= product.name %></h3>
+         <span class='price'><%= product.price %></span>
+        <span class='category'> <%= product.category_id%></span>
+           <span class='quantity'> <%= product.quantity %></span>
+           <span class='size'> <%= product.size_id %>  </span>
+            <span class='description'><%= product.description %></span>
+      </div>
+      <div id = 'actions'>
+      <a href='/products/edit/<%= product.id %>' class= 'edit-product-index'>Edit Products</a>
+      <form method='POST' action='/products/<%= product.id %>?_method=DELETE'>
+        <input type='submit' value='Delete Item' id="delte-button"/>
+      </form>
+      <a href='/products/<%= product.id %>' class = 'go-to-id'> Single Item</a>
+    </div>
+    </div>
+  <% }) %>
+
+
+
+<% include ../partials/end %>
